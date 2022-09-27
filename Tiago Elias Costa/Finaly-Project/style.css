@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background:  linear-gradient(68.15deg, #090927 16.62%, #3a2988 85.60%);
+}
+
+.cabecalho{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.image-cabecalho{
+    max-width: 100px; max-height: 50px;
+    height: 72px;
+}
+
+.menu{
+    display: flex;
+    gap: 50px;
+}
+
+.menu1{
+    font-family: 'EB Garamond', serif;
+    color: #ffffff;
+    font-weight: 1000;
+    font-size: 25px;
+}
+
+.conteudo{
+    border-top: 0.4px solid #fffef7;
+    margin-bottom: 50px;
+}
+
+.conteudo-principal{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.escrita{
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+}
+
+.titulo{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    font-size: 64px;
+    color: #fff2e7;
+}
+
+.subtitulo{
+    font-family: 'EB Garamond', serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ecd6c4;
+}
+
+.button{
+    background-color: #948274;
+    padding: 10px 30px;
+    border: none;
+    box-shadow: 6px 7px 6px rgba(0, 0, 0, 0.50);
+    border-radius: 20px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 800;
+    font-size: 20px;
+    color: #2f2325;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.button:hover {
+    background-color: #3a2988;
+    color: white;
+}
+.button:active{
+    background-color: green;
+}
+
+
+.image-principal{
+    max-width: 100%;
+    margin: 24px 0;
+}
+
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.conteudo-secundario-titulo{
+    border-top: 0.4px solid #fff2e7;
+    padding-top: 50px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 1000;
+    font-size: 20px;
+    color: #fff2e7;
+    margin-bottom: 16px;
+}
+
+.conteudo-secundario-p{
+    font-family: 'EB Garamond', serif;
+    font-weight: 800;
+    font-size: 18px;
+    color: #ecd6c4;
+}
+
+.rodape{
+    padding: 32px;
+    border-top: 0.4px solid #fff2e7;
+}
+
+.rodape-titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'EB Garamond', serif;
+    font-weight: 800;
+    font-size: 25px;
+    color: #ecd6c4;
+}
+
+.rodape-titulo2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'EB Garamond', serif;
+    font-weight: 800;
+    font-size: 25px;
+    color: #ecd6c4;
+}
+
+@media (max-width: 48em) {
+    .menu{
+        flex-direction: column;
+        gap: 5px;
+    }
+}
